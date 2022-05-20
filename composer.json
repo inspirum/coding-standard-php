@@ -1,13 +1,13 @@
 {
     "name": "inspirum/coding-standard",
-    "description": "Inspirum Coding standard for PHPCS",
+    "description": "Inspirum coding standard for PHPCS",
     "keywords": [
         "inspirum",
         "coding standard",
         "phpcodesniffer",
         "phpcs"
     ],
-    "homepage": "https://github.com/inspirum/coding-standard",
+    "homepage": "https://github.com/inspirum/coding-standard-php",
     "license": "MIT",
     "type": "phpcodesniffer-standard",
     "authors": [
