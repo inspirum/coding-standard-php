@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.1.1...master)
+## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.2.0...master)
+
+
+## [v1.2.0 (2022-07-04)](https://github.com/inspirum/coding-standard-php/compare/v1.1.1...v1.2.0)
+### Changed
+- Update `doctrine/coding-standard` to version `^10.0`
 
 
 ## [v1.1.1 (2022-07-04)](https://github.com/inspirum/coding-standard-php/compare/v1.1.0...v1.1.1)
