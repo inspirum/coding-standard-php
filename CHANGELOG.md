@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v1.3.0 (2023-02-08)](https://github.com/inspirum/coding-standard-php/compare/v1.2.0...v1.3.0)
 ### Changed
-- Update `dealerdirect/phpcodesniffer-composer-installer` to version `^1.0`,
+- Update `dealerdirect/phpcodesniffer-composer-installer` to version `^1.0`
 - Update `doctrine/coding-standard` to version `^11.0`
 
 
