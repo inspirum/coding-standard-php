@@ -1,7 +1,5 @@
 # Coding standard
 
-**Created as part of [inspishop][link-inspishop] e-commerce platform by [inspirum][link-inspirum] team.**
-
 [![Latest Stable Version][ico-packagist-stable]][link-packagist-stable]
 [![Total Downloads][ico-packagist-download]][link-packagist-download]
 [![Software License][ico-license]][link-licence]
@@ -54,7 +52,5 @@ The MIT License (MIT). Please see [License File][link-licence] for more informat
 [link-contributors]:        https://github.com/inspirum/coding-standard-php/contributors
 [link-licence]:             ./LICENSE.md
 [link-changelog]:           ./CHANGELOG.md
-[link-inspishop]:           https://www.inspishop.cz/
-[link-inspirum]:            https://www.inspirum.cz/
 [link-packagist-stable]:    https://packagist.org/packages/inspirum/coding-standard
-[link-packagist-download]:  https://packagist.org/packages/inspirum/coding-standard
+[link-packagist-download]:  https://packagist.org/packages/inspirum/coding-standard/stats

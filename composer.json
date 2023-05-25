@@ -2,8 +2,7 @@
     "name": "inspirum/coding-standard",
     "description": "Inspirum coding standard for PHPCS",
     "keywords": [
-        "inspirum",
-        "coding standard",
+        "coding-standard",
         "phpcodesniffer",
         "phpcs"
     ],
