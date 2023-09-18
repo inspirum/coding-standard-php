@@ -13,7 +13,9 @@
         <exclude name="Generic.CodeAnalysis.UselessOverridingMethod.Found"/>
         <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed"/>
         <exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessVarAnnotation"/>
+        <exclude name="Squiz.PHP.NonExecutableCode.Unreachable"/>
         <exclude name="Squiz.Arrays.ArrayDeclaration.MultiLineNotAllowed"/>
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
@@ -29,11 +31,7 @@
             <property name="linesCountBetweenUseTypes" value="0"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions">
-        <properties>
-            <property name="searchAnnotations" value="false"/>
-        </properties>
-    </rule>
+    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions" />
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
