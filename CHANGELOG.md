@@ -6,7 +6,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.4.0...master)
+## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.5.0...master)
+
+
+## [v1.5.0 (2024-05-17)](https://github.com/inspirum/coding-standard-php/compare/v1.4.0...v1.5.0)
+### Added
+- Added exclude for `Generic.Formatting.MultipleStatementAlignment.NotSame` rule
+### Removed
+- Removed exclude for `SlevomatCodingStandard.Classes.SuperfluousAbstractClassNaming.SuperfluousPrefix` rule
+- Removed exclude for `SlevomatCodingStandard.Classes.SuperfluousInterfaceNaming.SuperfluousSuffix` rule
+- Removed exclude for `SlevomatCodingStandard.TypeHints.ReturnTypeHint.UselessAnnotation` rule
+- Removed exclude for `SlevomatCodingStandard.TypeHints.ParameterTypeHint.UselessAnnotation` rule
+- Removed exclude for `SlevomatCodingStandard.TypeHints.PropertyTypeHint.UselessAnnotation` rule
+
 
 ## [v1.4.0 (2023-09-18)](https://github.com/inspirum/coding-standard-php/compare/v1.3.0...v1.4.0)
 ### Added
@@ -28,8 +40,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ## [v1.1.1 (2022-07-04)](https://github.com/inspirum/coding-standard-php/compare/v1.1.0...v1.1.1)
-### Removed
-- Exclude `RequireOneLineDocComment` rule
+### Added
+- Added exclude `SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment` rule
 
 
 ## [v1.1.0 (2022-07-04)](https://github.com/inspirum/coding-standard-php/compare/v1.0.1...v1.1.0)
