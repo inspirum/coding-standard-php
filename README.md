@@ -17,7 +17,7 @@ Run composer require command:
 composer require --dev inspirum/coding-standard
 ```
 
-Create `phpcs.xml.dist` file with:
+Create `phpcs.xml` file with:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
