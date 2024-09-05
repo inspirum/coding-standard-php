@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v1.6.0 (2024-05-17)](https://github.com/inspirum/coding-standard-php/compare/v1.5.0...v1.6.0)
 ### Removed
-- Removed custom properties values for `SlevomatCodingStandard.Functions.ArrowFunctionDeclaration` rule
+- Removed custom property values for `SlevomatCodingStandard.Functions.ArrowFunctionDeclaration` rule
 
 
 ## [v1.5.0 (2024-05-17)](https://github.com/inspirum/coding-standard-php/compare/v1.4.0...v1.5.0)
@@ -51,7 +51,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v1.1.0 (2022-07-04)](https://github.com/inspirum/coding-standard-php/compare/v1.0.1...v1.1.0)
 ### Changed
-- Better support for PHP 8.1 (Update slevomat/coding-standard to `^8.0`)
+- Better support for PHP 8.1 (Update `slevomat/coding-standard` to `^8.0`)
 
 
 ## [v1.0.1 (2022-06-07)](https://github.com/inspirum/coding-standard-php/compare/v1.0.0...v1.0.1)
