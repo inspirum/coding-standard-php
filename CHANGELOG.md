@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.6.0...master)
 
 
-## [v1.6.0 (2024-05-17)](https://github.com/inspirum/coding-standard-php/compare/v1.5.0...v1.6.0)
+## [v1.6.0 (2024-09-05)](https://github.com/inspirum/coding-standard-php/compare/v1.5.0...v1.6.0)
 ### Removed
 - Removed custom property values for `SlevomatCodingStandard.Functions.ArrowFunctionDeclaration` rule
 
