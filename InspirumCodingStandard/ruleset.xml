@@ -1,44 +1,43 @@
 <?xml version="1.0"?>
 <ruleset name="Inspirum Coding Standard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../vendor/squizlabs/php_codesniffer/phpcs.xsd">
     <rule ref="Doctrine">
-        <exclude name="Generic.Files.LineLength"/>
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix"/>
-        <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment"/>
-        <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
         <exclude name="Generic.CodeAnalysis.UselessOverridingMethod.Found"/>
-        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed"/>
-        <exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessVarAnnotation"/>
-        <exclude name="Squiz.PHP.NonExecutableCode.Unreachable"/>
+        <exclude name="Generic.Files.LineLength"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
         <exclude name="Squiz.Arrays.ArrayDeclaration.MultiLineNotAllowed"/>
         <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
-        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
-        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
+        <exclude name="Squiz.PHP.NonExecutableCode.Unreachable"/>
+        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix"/>
         <exclude name="SlevomatCodingStandard.Commenting.RequireOneLineDocComment.MultiLineDocComment"/>
-        <exclude name="SlevomatCodingStandard.TypeHints.UnionTypeHintFormat.DisallowedShortNullable"/>
-        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+        <exclude name="SlevomatCodingStandard.Commenting.RequireOneLinePropertyDocComment.MultiLinePropertyComment"/>
+        <exclude name="SlevomatCodingStandard.Commenting.UselessFunctionDocComment.UselessDocComment"/>
+        <exclude name="SlevomatCodingStandard.ControlStructures.EarlyExit.EarlyExitNotUsed"/>
+        <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions.NonFullyQualified"/>
+        <exclude name="SlevomatCodingStandard.PHP.RequireExplicitAssertion.RequiredExplicitAssertion"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.DNFTypeHintFormat.DisallowedShortNullable"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessVarAnnotation"/>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterNot">
         <properties>
             <property name="spacing" value="0"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing">
+    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
         <properties>
-            <property name="linesCountBetweenUseTypes" value="0"/>
+            <property name="caseSensitive" value="true"/>
+            <property name="psr12Compatible" value="true"/>
         </properties>
     </rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions" />
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions" />
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
         <properties>
             <property name="searchAnnotations" value="false"/>
         </properties>
     </rule>
-
-    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses">
+    <rule ref="SlevomatCodingStandard.Namespaces.UseSpacing">
         <properties>
-            <property name="caseSensitive" value="true"/>
-            <property name="psr12Compatible" value="true"/>
+            <property name="linesCountBetweenUseTypes" value="0"/>
         </properties>
     </rule>
 </ruleset>

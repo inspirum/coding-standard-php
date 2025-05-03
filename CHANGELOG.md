@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.7.0...master)
+## [Unreleased](https://github.com/inspirum/coding-standard-php/compare/v1.7.1...master)
+
+
+## [v1.7.0 (2023-02-08)](https://github.com/inspirum/coding-standard-php/compare/v1.7.0...v1.7.1)
+### Fixed
+- Use `SlevomatCodingStandard.TypeHints.DNFTypeHintFormat` instead of `SlevomatCodingStandard.TypeHints.UnionTypeHintFormat`
 
 
 ## [v1.7.0 (2023-02-08)](https://github.com/inspirum/coding-standard-php/compare/v1.6.0...v1.7.0)
